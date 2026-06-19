@@ -1,5 +1,5 @@
 name: Build EDOPro
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
 env:
   DEPLOY_REPO: ${{ secrets.DEPLOY_REPO }}
   DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
